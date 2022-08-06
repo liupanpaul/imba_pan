@@ -1,5 +1,14 @@
 # Data Engineering Project
-This project is to utilize
+This project aims to serve as a demonstration of the skills and knowledge associated with a data engineer.  
+It was led by Paul Liu and took two months to complete with the assistance of Teammates Terry Zhang and Zijian Ye. It consists of the following section:
+- Data Sourcing  
+- Data Architecture  
+- Data Engineering  
+- Model Establishment  
+- Model Deployment  
+
+The establishment of the data architecture is a great indicator of the understanding towards relational database and conceptual schema. A series of AWS cloud services are applied in this project to reflect our understanding towards data pipeline, CI/CD, modelling and collaboration within a data science team.
+
 # Background
 This 
 Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you.  
