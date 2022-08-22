@@ -17,7 +17,8 @@ Instacart’s data science team plays a big part in providing this delightful sh
 ![](instacart.png)
 
 # Data Sourcing
-
+the Entity-Relational Model is drawn to illustrate the database schema of the data collected.
+![](Entity-Relational_Model.png)
 # Data Architecture 
 
 # Data Engineering
