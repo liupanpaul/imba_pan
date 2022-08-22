@@ -17,8 +17,11 @@ Instacart’s data science team plays a big part in providing this delightful sh
 ![](instacart.png)
 
 # Data Sourcing
-the Entity-Relational Model is drawn to illustrate the database schema of the data collected.
+the Entity-Relational Model is constructed and drawn below to illustrate the database schema of the transactional data collected.
 ![](Entity-Relational_Model.png)
+
+It is evident that there are some one-to-many relationships betweem 5 tables that are connecting by unique primary keys and foreign keys.
+By constructing such a schema, it will be much easier when we query specific fields later on.
 # Data Architecture 
 
 # Data Engineering
