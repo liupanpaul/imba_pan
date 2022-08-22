@@ -22,12 +22,14 @@ the Entity-Relational Model is constructed and drawn below to illustrate the dat
 It is evident that there are some one-to-many relationships betweem 5 tables that are connecting by unique primary keys and foreign keys.  
 By constructing such a schema, it will be much easier when we query specific fields later on.
 
-## Join 
+## Join two tables and filter the data that has an eval_set classification of 'prior'.
 ```ruby
-SELECT *
-FROM orders INNER JOIN order_products
-ON orders.order_id = order_products.order_id 
-WHERE orders.eval_set = 'prior'
+SELECT o.order_id, o.user_id, o.eval_set, o.order_number,o.order_dow,o.order_hour_of_day,o.days_since_prior_order,  
+op.product_id,op.add_to_cart_order,op.recorded  
+FROM orders o 
+JOIN order_products op
+ON o.order_id = op.order_id
+WHERE o.eval_set = 'prior'
 ```
 
 
