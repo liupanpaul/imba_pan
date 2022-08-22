@@ -23,10 +23,10 @@ It is evident that there are some one-to-many relationships betweem 5 tables tha
 By constructing such a schema, it will be much easier when we query specific fields later on.
 
 ## Join 
-```
+```ruby
 SELECT *
 FROM orders INNER JOIN order_products
-ON orders.order_id = proder_products.order_id 
+ON orders.order_id = order_products.order_id 
 WHERE orders.eval_set = 'prior'
 ```
 
