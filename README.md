@@ -23,7 +23,7 @@ It is evident that there are some one-to-many relationships betweem 5 tables tha
 By constructing such a schema, it will be much easier when we query specific fields later on.
 
 ## Join two tables and filter the data that has an eval_set classification of 'prior'.
-```ruby
+```sql
 SELECT o.order_id, o.user_id, o.eval_set, o.order_number,o.order_dow,o.order_hour_of_day,o.days_since_prior_order,  
 op.product_id,op.add_to_cart_order,op.recorded  
 FROM orders o 
